@@ -129,10 +129,11 @@
 }
 iframe{
     transform: scale(1);
+    transition: all 0.3s ease-in-out;
 }
 iframe:hover{
     transform: scale(1.1);
-    transition: 0.2s ease-in-out;
+    
 }
 
 .content{
@@ -157,12 +158,80 @@ iframe:hover{
 
  img:hover{
     transform: scale(1.1);
-    transition: 0.2s ease-in-out;
+    
+ }
+ img{
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    
  }
 
+ .contact{
+    padding: 0px 79px;
+    height: 542px;
+ }
 
+ .contact h1{
+    margin-bottom: 80px;
+ }
 
+ .contact h6{
+    font-size: 36px;
+    margin-top: -8px;
+    font-weight: lighter;
+ }
 
+ .options{
+    display: flex;
+    width: 100%;
+    height: 200px;
+ }
+
+ .firstsection{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+    height: 300px;
+ }
+
+ .secondsection{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+
+ }
+
+ .opt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 535px;
+    height: 46px;
+    border-bottom: 1px solid black;
+    
+    
+ }
+
+ .footer{
+    padding: 96px 79px;
+ }
+
+ .footer h6{
+    font-size: 30px;
+    font-weight: lighter;
+ }
+
+ .footer h1{
+    font-size: 79px;
+ }
+.email{
+    width:840px;
+    border-bottom: 2px solid black
+}
 svg{
 
     transition:all 0.2s ease-in-out;
