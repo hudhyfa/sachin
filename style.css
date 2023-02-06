@@ -18,13 +18,14 @@
 .logo h2{
     font-family: Manrope,sans-serif;
 }
-.youtube:hover{
-    transform:scale(1)
-}
 .youtube{
-    transform:scale(0.9);
+    transform:scale(1);
     transition: transform 0.3s ease-in-out;
 }
+.youtube:hover{
+    transform:scale(1.1)
+}
+
 
 .menu{
     width: 250px;
@@ -54,7 +55,8 @@
 }
 
 .awwalthasweer{
-    padding-top: 40px;
+    margin-top: 95px;
+    padding-top: 60px;
     width: 580px;
     height: 700px;
 }
@@ -74,10 +76,10 @@
     padding: 96px 79px;
 }
 
-.about h1 {
-    font-size: 70px;
-    margin-bottom: 30px;
-    margin-left: 15px;
+.heading h1{
+        font-size: 70px;
+        margin-bottom: 30px;
+        margin-left: 15px;
 }
 
 .firstpara{
@@ -101,4 +103,70 @@
     padding: 10px;
     font-size: 20px;
 
+}
+
+.show{
+    padding: 0px 79px 96px 79px;
+    display: flex;
+    flex-direction: column;
+}
+.show h1{
+    padding-bottom: 96px;
+}
+.boxxy
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    
+}
+
+.imager {
+    width: 50%;
+    
+    
+}
+iframe{
+    transform: scale(1);
+}
+iframe:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+.content{
+    width: 50%;
+    margin: auto 0 auto 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.content h3{
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.content h5{
+    width: 295px;
+    font-size: 20px;
+    margin-bottom: 55px;
+    font-weight: lighter;
+}
+
+ img:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+ }
+
+
+
+
+svg{
+
+    transition:all 0.2s ease-in-out;
+}
+svg:hover{
+    transform:rotate(-30deg);
 }
